@@ -275,7 +275,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 10px;
+  right: 0px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -287,7 +287,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
+  /*background: url('../images/1.jpg');*/
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
@@ -368,7 +368,17 @@ Full-Width Styles
   background: #212121;
 }
 
-
+.shu{
+    position:absolute;
+    right:50px;
+}
+.iit{
+    position:absolute;
+    right:56px;
+}
+.headphoto{
+    left:35%
+}
 
 /*******************************************************************************
 Small Device Styles
